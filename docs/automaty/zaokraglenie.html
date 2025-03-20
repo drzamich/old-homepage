@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Zaokroąglanie ułamków - Drzamich's website</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Author" content="Drzamich">
+    <meta name="Description" content="Drzamich, Michal, Drzazga" />
+    <meta name="Keywords" content="Drzamich" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta http-equiv="Reply-To" content="drzamich@gazeta.pl" />
+    <meta http-equiv="Creation-Date" content="Mon, 21 May 2007 16:30:24 GMT" />
+    <meta http-equiv="Last-Modified" content="Wed, 23 May 2007 14:56:48 GMT" />
+
+<BODY BGCOLOR="6495ED">
+    <style type="text/css">
+        /* <![CDATA[ */
+        a {
+            text-decoration: none
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        /* ]]> */
+
+        /* <![CDATA[ */
+        a:hover {
+            color: FF0000
+        }
+
+        /* ]]> */
+
+        BODY {
+            PADDING-RIGHT: 0px;
+            PADDING-LEFT: 0px;
+            PADDING-BOTTOM: 0px;
+            MARGIN: 0px;
+            PADDING-TOP: 0px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            color: 696969;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            text-align: justify;
+        }
+
+        A {
+            font-size: 13px;
+            color: 696969
+        }
+
+        P {
+            font-size: 13px;
+            color: 696969
+        }
+
+        FONT.tytuł {}
+    </style>
+    <script type="text/javascript">
+        function zaokraglenie(liczba) {
+            liczba = liczba * 100;
+            var wynik = Math.round(liczba) / 100;
+            window.alert(wynik);
+        }
+    </script>
+    </head>
+
+    <body>
+        <br>
+        <form id="formularz" onsubmit="zaokraglenie(liczba.value);">
+            &nbsp;&nbsp;<input type="text" value="" name="liczba" style="width: 80px;">
+            <input type="submit" value="Zaokrąglij"><br><br>
+            &nbsp;&nbsp;<b>Uwaga!!!</b> Ważne jest żeby zamiast przecinka wstawic kropkę.<br>&nbsp;&nbsp;Liczby
+            zaokraglane są do drugiego miejsca po przecinku.
+        </form>
+    </body>
+
+</html>
