@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Pierwiastek kwadratowy - Drzamich's website</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<BODY>
+<script type="text/javascript">
+function pierwiastek(liczba) {
+var czy_liczba1 = isNaN(liczba);
+if (czy_liczba1 == false) {
+var wynik = Math.sqrt(liczba);
+window.alert("Wynik: " + wynik)
+}
+else {
+window.alert("Nie wpisa³e¶ liczby.");
+return;
+}
+}
+</script>
+</head>
+<body>
+<form id="formularz">
+<b>Liczba :</b> <input type="text" value="" name="l" style="width: 50px;" maxlength="3">
+  <input type="button" value="Policz" onclick="pierwiastek(l.value);">
+</form>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://drzamich.boo.pl/</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/index.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/wydarzenia.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/o-mnie.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/automaty.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/kontakt.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/linki.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/mapa.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/szablony.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/fundament.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/validator.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/zdeprecjonowane.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/porady-1.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/porady-2.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/porady-3.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/tips-and-tricks.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/pliki/redirect1.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/pliki/lay1.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://drzamich.boo.pl/porady-html.php</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-12-23T16:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

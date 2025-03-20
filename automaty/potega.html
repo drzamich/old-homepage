@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Liczba do potęgi - Drzamich's website</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<body>
+<script type="text/javascript">
+function potega(liczba,pot) {
+var czy_liczba1 = isNaN(liczba);
+var czy_liczba2 = isNaN(pot);
+if ((czy_liczba1 == false) && (czy_liczba2 == false)) {
+var wynik = Math.pow(liczba,pot);
+window.alert("Wynik: " + wynik)
+}
+else {
+window.alert("Nie wpisałeś liczb.");
+return;
+}
+}
+</script>
+</head>
+<body>
+<form id="formularz">
+<b>Liczba :</b><input type="text" value="" name="l" style="width: 50px;" maxlength="3"><br>
+<b>Potęga:</b><input type="text" value="" name="p" style="width: 50px;" maxlength="3"><br>  
+<input type="button" value="Policz" onclick="potega(l.value,p.value);">
+</form>
+</body>
+</html>

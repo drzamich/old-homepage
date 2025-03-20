@@ -1,0 +1,91 @@
+#center {
+	height: 500px;
+	padding: 0 5px 20000px 5px;
+}
+
+ul#menu-jeden, ul#menu-dwa, ul#gorne-menu, ul#dolne-menu {
+	position: relative; left: 0px;
+}
+
+.wykaz, div.mapa {
+	height: 50px;
+  	overflow:visible;
+}
+ul {position: relative; left: 0;}
+ul ul {position: relative; left 5px;}
+
+ul.mapa {
+	position: relative; left: 0;
+	list-style-type: decimal;
+  	padding: 5px;
+}
+ul.mapa ul {
+	list-style-type: square
+	position: relative; left: 10px;
+	
+}
+ul.mapa ul ul {
+	list-style-type: lower-alpha
+}
+
+ul#update {
+	padding-left: 20px;
+}
+
+#szukajka {
+	border: 0;
+	padding: 0;
+	width: 400px;
+	position: absolute; left: 500px; top: 200px;
+}
+.news, .porada, .blad, .program, .szyfr {
+  	margin: 5px;
+	padding: 5px;
+	text-align: justify;
+}
+.news {
+	background: #80bfff;
+	border: 1px dotted #1a5999;
+}
+.porada {
+  	background: #c0c0c0;
+	border: 1px dotted #708090;
+}
+.blad {
+  	background: #dcebd7;
+	border: 1px dotted #a9b8a4;
+}
+.program {
+	background: #ffad99;
+	border: 1px dotted #dc1400;
+}
+.szyfr {
+  	background: #ffffcc;
+  	border: 1px dotted #ffd700;
+}
+.szyfr h4 a {
+  	color: #000;
+  	font-style: normal;
+}
+.blad h3, .porada h3, .news h3, .program h3, .szyfr h3 {
+  	border-bottom: 1px dotted #000;
+  	margin-bottom: 5px;
+}
+.blad h4, .porada h4, .porada p, .blad p, .news p, .program p, .szyfr h4{
+  	margin-bottom: 5px;
+}
+.blad a, .news a, .porada a, .program a, .szyfr a {
+  	color: blue;
+  	font-style: italic;
+  	border: none;
+  	font-weight: normal;
+  	text-align: left;
+  	font-size: 12px;
+  	text-align: right;
+}
+.blad a:hover, .news a:hover, .porada a:hover, .program a:hover, .szyfr a:hover {
+  	text-decoration: underline;
+}
+
+#infobar {display: block; background: #fff; position: fixed;}
+#infobar a {display: block; color: #000;}

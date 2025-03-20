@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Trójmian kwadratowy - Drzamich's website</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<BODY>
+<script type="text/javascript">
+function oblicz_delte(a,b,c) {
+var delta = (Math.pow(b,2) - 4*a*c);
+return delta;
+}
+ 
+function oblicz_x1(a,b,delta) {
+var x1 = (-1*b - Math.sqrt(delta))/(2*a);
+return x1;
+}
+  
+function oblicz_x2(a,b,delta) {
+var x2 = (-1*b + Math.sqrt(delta))/(2*a);
+return x2;
+}
+  
+function obliczenia(a,b,c) {
+delta = oblicz_delte(a,b,c);
+x1 = oblicz_x1(a,b,delta);
+x2 = oblicz_x2(a,b,delta);
+if(delta < 0) {
+window.alert("DELTA < 0 \nBrak rozwi±zania\nPrzerywam wykonywanie skryptu.");
+return;
+}
+if(x1 == x2) {
+window.alert("Trójmian posiada jedno rozwi±zanie:\nDelta = " + delta + "\nx = " + x1);
+return;
+}
+window.alert("DELTA = " + delta +"\nx1 = " + x1 + "\nx2 = " + x2);
+}
+  
+function pobranie(a,b,c) {
+//Sprawdzam czy wszystko jest wpisane
+if(a == '' || b == '' || c == '') {
+window.alert("musisz uzupe³niæ wszystkie pola równania\nPrzerywam wykonywanie skryptu");
+return;
+}
+if(isNaN(a) || isNaN(b) || isNaN(c)) {
+alert("Przynajmniej jeden z wpisanych przez Ciebie parametrów nie jest liczb±\nPrzerywam wykonywanie skryptu.");
+return;
+}
+if(a == 0) {
+window.alert ("a nie mo¿e byæ równe 0\nPrzerywam wykonywanie skryptu");
+return;
+}
+//Jezeli testy wypadly pomyslnie przejdz do obliczen
+obliczenia(a,b,c);
+}
+</script>
+</head>
+<body>
+<form id="">
+&nbsp;&nbsp;<input type="text" maxlength="4" name="a" id="a" class="dane">
+x<sup>2</sup> +  <input type="text" maxlength="4" name="b" id="b" class="dane">  x + 
+<input type="text" maxlength="4" name="c" id="c" class="dane"> = 0<br> <br>
+&nbsp;&nbsp;<input type="button" onclick="pobranie(a.value, b.value, c.value);" value="Policz">
+</form>
+</body>
+</html>

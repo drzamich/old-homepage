@@ -1,0 +1,23 @@
+PROCESOR
+	Intel Core2 Duo E4600 2,4GHZ (S775) BOX
+
+KARTA GRAFICZNA
+	Asus 8800GT 512MB DDR3 600/1800
+
+PAMIÊÆ RAM
+	GoodRam DDR2 2 x 1GB 800MHz
+
+OBUDOWA
+	Asus TA-883 Black-White
+
+P£YTA G£ÓWNA
+	Asus P5K SE Intel P35
+
+DYSK TWARDY IDE/SATA
+	Seagate 250GB Barracuda 7200.10 (16MB, Serial ATA II, zapis prostopad³y)
+
+NAPÊDY OPTYCZNE
+	Pioneer DVD+/-RW DVR-212 bulk black (Serial ATA)
+
+ZASILACZ
+	Zasilacz do obudowy Chieftec (GPS-450AA-101A) 450W bulk

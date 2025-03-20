@@ -1,0 +1,43 @@
+#center {
+	height: 500px;
+	padding: 0 5px 20000px 5px;
+}
+ul {position: relative; left: 0;}
+ul ul {position: relative; left 5px;}
+
+ul.mapa {
+	position: relative; left: 0;
+	list-style-type: decimal;
+  	padding: 5px;
+}
+ul.mapa ul {
+	list-style-type: square
+	position: relative; left: 10px;
+	
+}
+ul.mapa ul ul {
+	list-style-type: lower-alpha
+}
+
+ul#update {
+	padding-left: 20px;
+}
+
+#szukajka {
+	border: 1px #000 solid;
+	padding: 5px;
+	width: 250px;
+	position: absolute; left: 500px; top: 200px;
+}
+#szukajka input {
+	display: inline;
+}
+.wykaz {
+	background: #4169e1;
+  	overflow: auto;
+	height: 200px;
+  	color: #000;
+  	text-align: left;
+  	padding: 5px;
+  	margin: 5px 0;
+}

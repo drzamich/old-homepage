@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Alfabet Morrse'a</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript"> /* rozpoczyna skrypt Javy */
+function tlumacz(form) { /* rozpoczyna now± funkcjê "t³umacz" */
+litery = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .,?:-!"; /* przypisuje zmiennej "litery" litery z alfabetu 
+
+*/
+morse = new Array( /* tworzy now± tablicê ze znakami alfabetu Mores'a dla zmiennej morse */
+"/","/.-","/-...","/-.-.","/-..","/.","/..-.",
+"/--.","/....","/..","/.---","/-.-","/.-..",
+"/--","/-.","/---","/.--.","/--.-","/.-.",
+"/...","/-","/..-","/...-","/.--","/-..-",
+"/-.--","/--..","/.-","/-...","/-.-.","/-..",
+"/.","/..-.","/--.","/....","/..","/.---",
+"/-.-","/.-..","/--","/-.","/---","/.--.",
+"/--.-","/.-.","/...","/-","/..-","/...-",
+"/.--","/-..-","/-.--","/--.."," ","/.-.-.-",
+"/--..--","/..--..","/---...","/-....-","!");
+ 
+form.output.value = ""; /* sprawia, ¿e pole output jest puste */
+var input = form.input.value; /* przypisuje zmiennej input wartosc pola input */
+output = ""; /* czysci zmienna output (nie posiada zadnych znaków) */
+for(count = 0; count < input.length; count++) { /* ustawia wartosc count na 0 po czym zwieksza wartosc count az osiagnie 
+
+wartosci (ilosci znakow) pola input */
+daChar = input.charAt(count); /* przypisuje zmiennej daChar wartosc znaku z pola input */
+for (i = 0; i < litery.length; i++) { /* przypisuje zmiennej "i" wartosc 0 po czym zwieksza "i" az osiagnie wartosc 
+
+zmiennej litery (wartosc tej zmiennej to ilosc znaków przypisanych do niej)-mowiac prosciej sprawdza po kolei kazdy znak 
+
+przypisany do zmiennej "litery" */
+if (daChar == litery.charAt(i)) { /*jesli zmienna daChar jest rowna danemu znakowi przypisanemu do zmiennej litery */
+output += morse[i]; /* pszypisuje zmiennej output odpowiedni znak z tablicy "morse" */
+break;
+      }
+   }
+}
+form.output.value = output; /*przypisuje polu otput wartosc zmiennej output */
+}
+</script>
+</head>
+<BODY BGCOLOR="6495ED">
+<form>
+<textarea name=input cols=50 rows=4 wrap=physical>
+</textarea>
+<!-- wstawia pole input o rozmiarach 50 kolumn na 4 
+wiersze --> 
+<br> 
+<input type=button value="Koduj" 
+onClick="javascript:tlumacz(this.form)" style="margin:5px" align="center"> 
+<!-- wstawia guzik z napisem T³umacz --> 
+<br> 
+<textarea name=output cols=50 rows=4 wrap=physical>
+</textarea> 
+<!-- wstawia pole output ? wy¶wietla przet³umaczony 
+tekst --> 
+</form> 
+
+<!-- (C) 2000-2006 Gemius SA - gemiusAudience / ver 11.1 / adnet.prv / nieskategoryzowane-->
+<script type="text/javascript">
+var gemius_identifier = new String('nAGa1ohrIwnRTS9KCU62EJZVP_1F1cezXuIzWmZsoxP.T7');
+</script>
+<script type="text/javascript" src="http://adnet.hit.gemius.pl/pp_gemius.js"></script>
+
+<script type="text/javascript"><!--<![CDATA[
+/* (c)AdOcean 2004-2005 */
+if(location.protocol.substr(0,4)=='http')document.write(unescape('%3C')+'script id="Przestrzen reklamowa.Prv.pl.Konta Hostingowe.Konta_Hostingowe_SG_750x100" src="'+location.protocol+'//s1.ad.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=JWqaxXCoo2rJgvinksYLJ6Dd.HDXMv.4uS3P6zNDvML.I7/x='+screen.width+'/y='+screen.height+'" type="text/javascript"'+unescape('%3E%3C')+'/script'+unescape('%3E'));
+//]]>--></script>
+
+</body>
+</html>
