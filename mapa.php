@@ -3,7 +3,7 @@
 <div style="height: 100%; overflow: hidden;">
 <div class="mapa">
 <ul class="mapa">
-    <li><a href="index.php">Strona g丑wna</a></li>
+    <li><a href="index.php">Strona g艂贸wna</a></li>
     <li><a href="o-mnie.php">O mnie</a>
            <ul>
                <li><!-- <a href="o-mnie.php#muzyka"> -->Muzyka<!-- </a> --></li>
@@ -15,7 +15,7 @@
     <li><a href="automaty.php">Automaty</a>
            <ul>
                <li><!-- <a href="automaty.php#szyfry"> -->Szyfry<!-- </a> --></li>
-               <li><!-- <a href="automaty.php#liczace"> -->Licz眂e<!-- </a> --></li>
+               <li><!-- <a href="automaty.php#liczace"> -->Licz膮ce<!-- </a> --></li>
            </ul>
     </li>
     <li><a href="linki.php">Linki</a>
@@ -40,29 +40,29 @@
     <li><a href="fundament.php">Fundament kodu</a></li>
     <li><a href="porady-1.php">Porady #1 - XHTML</a>
            <ul>
-               <li><!-- <a href="porady-1.php#wartosci_w_cudzys硂wie"> -->Warto禼i w cudzys硂wie<!-- </a> --></li>
+               <li><!-- <a href="porady-1.php#wartosci_w_cudzys艂owie"> -->Warto艣ci w cudzys艂owie<!-- </a> --></li>
                <li><!-- <a href="porady-1.php#stosowanie doctype"> -->Stosowanie Doctype<!-- </a> --></li>
            </ul>
     </li>
     <li><a href="porady-2.php">Porady #2 - CSS</a>
            <ul>
-               <li><!-- <a href="porady-2.php#globalne_zerowanie_margines體"> --> Globalne zerowanie margines體<!-- </a> --></li>
-               <li><!-- <a href="porady-2.php#kolejnosc_wpisywania_atrybutow_mieszanych"> --> Kolejno舵 wpisywania atrybut體 mieszanych<!-- </a> --></li>
+               <li><!-- <a href="porady-2.php#globalne_zerowanie_margines贸w"> --> Globalne zerowanie margines贸w<!-- </a> --></li>
+               <li><!-- <a href="porady-2.php#kolejnosc_wpisywania_atrybutow_mieszanych"> --> Kolejno艣膰 wpisywania atrybut贸w mieszanych<!-- </a> --></li>
            </ul>
     </li>
     <li><a href="porady-3.php">Porady #3 - Grafika</a>
            <ul>
-               <li><!-- <a href="porady-3.php#zmniejszanie_ciezaru_obrazka"> -->Zmniejszanie ci陑aru obrazka<!-- </a> --></li>
-               <li><!-- <a href="porady-3.php#masowe_zmniejszanie_ciezaru_obrazkow"> -->Masowe zmniejszanie ci昕aru obrazk體<!-- </a> --></li>
-               <li><!-- <a href="porady-3.php#zmniejszanie_wielkosci_obrazka"> -->Zmniejszanie wielko禼i obrazka<!-- </a> --></li>
-               <li><!-- <a href="porady-3.php#masowe_zmniejszanie_wielkosci_obrazkow"> -->Masowe zmniejszanie wielko禼i obrazk體<!-- </a> --></li>
+               <li><!-- <a href="porady-3.php#zmniejszanie_ciezaru_obrazka"> -->Zmniejszanie ci臋zaru obrazka<!-- </a> --></li>
+               <li><!-- <a href="porady-3.php#masowe_zmniejszanie_ciezaru_obrazkow"> -->Masowe zmniejszanie ci臋偶aru obrazk贸w<!-- </a> --></li>
+               <li><!-- <a href="porady-3.php#zmniejszanie_wielkosci_obrazka"> -->Zmniejszanie wielko艣ci obrazka<!-- </a> --></li>
+               <li><!-- <a href="porady-3.php#masowe_zmniejszanie_wielkosci_obrazkow"> -->Masowe zmniejszanie wielko艣ci obrazk贸w<!-- </a> --></li>
            </ul>
     </li>
-    <li><a href="validator.php">B酬dy w Validatorze</a></li>
+    <li><a href="validator.php">B艂臋dy w Validatorze</a></li>
     <li><a href="zdeprecjonowane.php">Znaczniki zdeprecjonowane</a></li>
     <li><a href="tips-and-tricks.php">Tips & tricks</a>
     <ul>
-    <li><!-- <a href="tips-and-tricks.php"> -->Wy砤czanie reklam w OGame.pl <!-- </a> --></li>
+    <li><!-- <a href="tips-and-tricks.php"> -->Wy艂aczanie reklam w OGame.pl <!-- </a> --></li>
     </ul></li>
 </ul>
 </div>

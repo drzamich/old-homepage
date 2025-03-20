@@ -3,32 +3,32 @@
 <div class="wydarzenie">
      <h4>Aktualizacja v 0.7</h4>
                       <p>23 grudnia 2007</p>
-                      <p>Wprowadzi³em aktualizacjê mojej strony. Zmiany sa ogromne:</p>
+                      <p>WprowadziÅ‚em aktualizacjÄ™ mojej strony. Zmiany sa ogromne:</p>
                       <ul id="update" style="padding-right: 20px;">
-                      <li>Pierwsz± rzecz± jest zmiana adresu strony. Z <code>drzamich.prv.pl</code> na <code>drzamich.boo.pl</code>. Zdecydowa³em siê kupiæ hosting na <a href="http://boo.pl">boo</a>, gdy¿ denerwowa³y mnie reklamy i ograniczenia na <a href="http://prv.pl">prv</a>.</li>
-                      <li>Zmieni³em te¿ charakter portalu. Zamiasty byc tylko i wy³±cznie moj± stron± domow± opowiadaj±c± o mnie z jakim¶ tam szablonem, postanowi³em postawiæ na webmastering. W prawym menu mo¿na znale¼æ linki do <em>porad webmasterskich</em>, <em>fundamentu kodu</em> i wielu innych.</li>
-                      <li>Uzna³em ¿e rozwelanie jednego tematu na kilka dzia³ów jest lekko mówi±æ <span class="i">"nie fajne"</span>. Tak wiêc lista programów które polecam, jakiej muzyki s³ucham itd. oprócz trego ¿e zosta³a mocno odchudzona (nie chodzi tu o to, ¿e jest na niej mniej pozycji, ale ¿e wywali³em niepotrzebny opis, ktorego i tak nikomu nie chcia³o siê czytaæ) i znajduje siê teraz w dziale <a href="o-mnie.php">o mnie</a>.</li>
-                      <li>Zrezygnowa³em tez z ubogiego, <span class="i">"pustego"</span> loga i zrbi³em nowe, my¶lê ¿e lepsze.</li>
-                      <li>Jesli kto¶ chce co¶ znale¼æ nie musi teraz szukac po ca³ej stronie jednej informacji. Mo¿e za to skoszystaæ z wyszukiwarki lub <a href="mapa.php">mapy portalu</a></li>
-                      <li>Zmieni³a siê tak¿e struktura ca³ej strony. Teraz <span class="i">"zielone"</span> menu jest na górze, a <span class="i">"czerwone"</span> mo¿na sobie przesuwac wedle upodobania. c³a strona jest za to wê¿sza.</li>
+                      <li>PierwszÄ… rzeczÄ… jest zmiana adresu strony. Z <code>drzamich.prv.pl</code> na <code>drzamich.boo.pl</code>. ZdecydowaÅ‚em siÄ™ kupiÄ‡ hosting na <a href="http://boo.pl">boo</a>, gdyÅ¼ denerwowaÅ‚y mnie reklamy i ograniczenia na <a href="http://prv.pl">prv</a>.</li>
+                      <li>ZmieniÅ‚em teÅ¼ charakter portalu. Zamiasty byc tylko i wyÅ‚Ä…cznie mojÄ… stronÄ… domowÄ… opowiadajÄ…cÄ… o mnie z jakimÅ› tam szablonem, postanowiÅ‚em postawiÄ‡ na webmastering. W prawym menu moÅ¼na znaleÅºÄ‡ linki do <em>porad webmasterskich</em>, <em>fundamentu kodu</em> i wielu innych.</li>
+                      <li>UznaÅ‚em Å¼e rozwelanie jednego tematu na kilka dziaÅ‚Ã³w jest lekko mÃ³wiÄ…Ä‡ <span class="i">"nie fajne"</span>. Tak wiÄ™c lista programÃ³w ktÃ³re polecam, jakiej muzyki sÅ‚ucham itd. oprÃ³cz trego Å¼e zostaÅ‚a mocno odchudzona (nie chodzi tu o to, Å¼e jest na niej mniej pozycji, ale Å¼e wywaliÅ‚em niepotrzebny opis, ktorego i tak nikomu nie chciaÅ‚o siÄ™ czytaÄ‡) i znajduje siÄ™ teraz w dziale <a href="o-mnie.php">o mnie</a>.</li>
+                      <li>ZrezygnowaÅ‚em tez z ubogiego, <span class="i">"pustego"</span> loga i zrbiÅ‚em nowe, myÅ›lÄ™ Å¼e lepsze.</li>
+                      <li>Jesli ktoÅ› chce coÅ› znaleÅºÄ‡ nie musi teraz szukac po caÅ‚ej stronie jednej informacji. MoÅ¼e za to skoszystaÄ‡ z wyszukiwarki lub <a href="mapa.php">mapy portalu</a></li>
+                      <li>ZmieniÅ‚a siÄ™ takÅ¼e struktura caÅ‚ej strony. Teraz <span class="i">"zielone"</span> menu jest na gÃ³rze, a <span class="i">"czerwone"</span> moÅ¼na sobie przesuwac wedle upodobania. cÅ‚a strona jest za to wÄ™Å¼sza.</li>
                       </ul>
 </div>
 
 <div class="wydarzenie">
      <h4>Aktualizacja v 0.6</h4>
-                      <p>3 wrze¶nia 2007</p>
-                      <p>Dzisiejsza aktualizacja wprowadzi³a kilka zmian. Menu s± semantyczne i szybciej siê ³aduj±. Wyrzuci³em zbedne grafiki przez co ca³a strona ³aduje siê szybciej. Powróci³o stare logo. Strona wygl±da teraz tak samo (nie rozci±ga siê) na rozdzielo¶ciach mniejszych od 1024x768. Trwaj± prace nad "odtabelkowaniem" portalu i dostosowaniem go do najnowszych standartów.</p>
+                      <p>3 wrzeÅ›nia 2007</p>
+                      <p>Dzisiejsza aktualizacja wprowadziÅ‚a kilka zmian. Menu sÄ… semantyczne i szybciej siÄ™ Å‚adujÄ…. WyrzuciÅ‚em zbedne grafiki przez co caÅ‚a strona Å‚aduje siÄ™ szybciej. PowrÃ³ciÅ‚o stare logo. Strona wyglÄ…da teraz tak samo (nie rozciÄ…ga siÄ™) na rozdzieloÅ›ciach mniejszych od 1024x768. TrwajÄ… prace nad "odtabelkowaniem" portalu i dostosowaniem go do najnowszych standartÃ³w.</p>
 </div>
 
 <div class="wydarzenie">
      <h4>Pierwszy szablon</h4>
                   <p>30 lipca 2007</p>
-                  <p>Mo¿e nie jest to zbyt wa¿na wiadomo¶æ, ale znalaz³em troszkê czasu i zrobi³em pierwszy szablon. Mo¿na znale¼c go w odpowiednim dziale.</p>
+                  <p>MoÅ¼e nie jest to zbyt waÅ¼na wiadomoÅ›Ä‡, ale znalazÅ‚em troszkÄ™ czasu i zrobiÅ‚em pierwszy szablon. MoÅ¼na znaleÅºc go w odpowiednim dziale.</p>
 </div>
 
 <div class="wydarzenie">
      <h4>Aktualizacja v 0.5</h4>
      <p>12 lipca 2007</p>
-     <p>Strona przesz³a kolejn± aktualizacjê. Jest teraz bardziej kolorowa i mi³a dla oka. Po prawej stronie pojawi³o siê menu z szablonami <acronym title="World Wide Web">WWW</acronym>. Wszystkie podstrony serwisu s± teraz napisane w jêzyku <acronym title="PHP Hypertext Preprocessor">PHP</acronym> co znacznie przyspieszy kojene aktualizacje.</p>
+     <p>Strona przeszÅ‚a kolejnÄ… aktualizacjÄ™. Jest teraz bardziej kolorowa i miÅ‚a dla oka. Po prawej stronie pojawiÅ‚o siÄ™ menu z szablonami <acronym title="World Wide Web">WWW</acronym>. Wszystkie podstrony serwisu sÄ… teraz napisane w jÄ™zyku <acronym title="PHP Hypertext Preprocessor">PHP</acronym> co znacznie przyspieszy kojene aktualizacje.</p>
 </div>
 <?php include 'foot.php'; ?>

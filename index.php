@@ -3,14 +3,14 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-	<meta name="Author" content="Michał Drzazga" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="MichaĹ Drzazga" />
 	<meta name="Robots" content="all" />
 	<meta name="verify-v1" content="NIoMz6X10PG9LLKUBmnFz0yqdxZErOvL2QaqienNFtQ=" />
 	<script type="text/javascript" src="script/menu.js"></script>
-	<meta name="Description" content="Moja strona domowa. Można tu znaleźć wiele przydatnych rzeczy takich jak na przykład automatyczne kodowanie i liczenie, porady, linki do ciakwych stron.  Zapraszam." />
-	<meta name="Keywords" content="Drzamich, szyfry, inicjatywy, polecane, odradzane, programy, automaty, porady html, porady css, grafika, błędy w validatorze, znaczniki zdeprecjonowane" />
-	<title>Strona główna - Drzamich's Homepage - webmastering, szablony, porady i triki, automaty</title>
+	<meta name="Description" content="Moja strona domowa. MoĹźna tu znaleĹşÄ wiele przydatnych rzeczy takich jak na przykĹad automatyczne kodowanie i liczenie, porady, linki do ciakwych stron.  Zapraszam." />
+	<meta name="Keywords" content="Drzamich, szyfry, inicjatywy, polecane, odradzane, programy, automaty, porady html, porady css, grafika, bĹÄdy w validatorze, znaczniki zdeprecjonowane" />
+	<title>Strona gĹĂłwna - Drzamich's Homepage - webmastering, szablony, porady i triki, automaty</title>
 	<link rel="Stylesheet" type="text/css" href="style.css" />
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 <!-- (C) stat24 / Strona glowna -->
@@ -25,7 +25,7 @@ document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://s3.hit.stat24
 </head>	
 <body>
 <!-- LOGO -->
-<div id="infobar"><a href="http://browsehappy.pl/infobar">Internet Explorer nie potrafi poprawnie wyświetlić tej strony. Kliknij tutaj, aby dowiedzieć się więcej...</a></div>
+<div id="infobar"><a href="http://browsehappy.pl/infobar">Internet Explorer nie potrafi poprawnie wyĹwietliÄ tej strony. Kliknij tutaj, aby dowiedzieÄ siÄ wiÄcej...</a></div>
 <div id="banner"><h1><a href="http://drzamich.boo.pl">Drzamich's Homepage</a></h1></div>
 
 <!-- SZUKAJKA -->
@@ -46,7 +46,7 @@ document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://s3.hit.stat24
 <!-- GORNE MENU -->
 <div id="top">
 	<ul>
-	<li><a href="index.php">Strona główna</a></li>
+	<li><a href="index.php">Strona gĹĂłwna</a></li>
 	<li><a href="wydarzenia.php">Wydarzenia</a></li>
 	<li><a href="o-mnie.php">O mnie</a></li>
 	<li><a href="automaty.php">Automaty</a></li>
@@ -60,14 +60,14 @@ document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://s3.hit.stat24
 <div id="container">
      <div id="wrapper">
           <div id="center">
-<h2 class="title">strona główna</h2>
+<h2 class="title">strona gĹĂłwna</h2>
 <div class="part-left">
 
 	<!-- LATEST NEWS -->
         <div class="news">
         	<h3>Aktualizacja v.0.7</h3>
 		<p class="data">10 listopada 2007</p>
-		<p>Wprowadziłem aktualizację mojej strony. Zmiany są ogromne. Przede wszystkim to zmiana adresu strony z <code>drzamich.prv.pl</code> na <code>drzamich.boo.pl</code>. Ponadto zasadniczo zmienił się wygląd i charakter strony. Po wejściu pierwszy raz po aktualizacji, na pewno da się zauważyć duże logo zrobione przeze mnie na miejsce starego i nudnego.</p><a href="wydarzenia.php">czytaj dalej</a>
+		<p>WprowadziĹem aktualizacjÄ mojej strony. Zmiany sÄ ogromne. Przede wszystkim to zmiana adresu strony z <code>drzamich.prv.pl</code> na <code>drzamich.boo.pl</code>. Ponadto zasadniczo zmieniĹ siÄ wyglÄd i charakter strony. Po wejĹciu pierwszy raz po aktualizacji, na pewno da siÄ zauwaĹźyÄ duĹźe logo zrobione przeze mnie na miejsce starego i nudnego.</p><a href="wydarzenia.php">czytaj dalej</a>
 
         </div>
 
@@ -84,10 +84,10 @@ document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://s3.hit.stat24
 
 	<!-- LOSOWY BLAD -->
 	<div class="blad">
-		<h3>Wybrany błąd w Validatorze</h3>
+		<h3>Wybrany bĹÄd w Validatorze</h3>
 		<script type="text/javascript" src="script/blad.js"></script>
-		<noscript><h4>No document type declaration; implying "&lt;!DOCTYPE HTML SYSTEM&gt;"</h4><p>Taki błąd oznacza, że na początku dokumentu nie zadeklarowano w jakim typie języka HTML napisana jest strona WWW, czyli <span class="i">Doctype</span>. Aby go naprawić należy to zrobić. Jeśli nie wiesz jaki <span class="i">Doctype</span> zadeklarować, przeczytaj <a href="../porady-html/index.php#doctype">to</a>.</p></noscript>
-		<a href="validator">Zobacz więcej błędów w Validatorze!</a>
+		<noscript><h4>No document type declaration; implying "&lt;!DOCTYPE HTML SYSTEM&gt;"</h4><p>Taki bĹÄd oznacza, Ĺźe na poczÄtku dokumentu nie zadeklarowano w jakim typie jÄzyka HTML napisana jest strona WWW, czyli <span class="i">Doctype</span>. Aby go naprawiÄ naleĹźy to zrobiÄ. JeĹli nie wiesz jaki <span class="i">Doctype</span> zadeklarowaÄ, przeczytaj <a href="../porady-html/index.php#doctype">to</a>.</p></noscript>
+		<a href="validator">Zobacz wiÄcej bĹÄdĂłw w Validatorze!</a>
 	</div>
 
 	<div class="szyfr">
@@ -101,7 +101,7 @@ document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://s3.hit.stat24
 	<div class="program">
         	<h3>Wybrany polecany program</h3>
 		<script type="text/javascript" src="script/program.js"></script>
-		<noscript><h4>Opera</h4><p>Opera to najlepsza przeglądarka internetowa. Oprócz zwykłej przglądarki posiada równiez klient poczty, klient IRC, czytnik RSS i klient BitTorrent czyli wiele programów połączonych w jeden, bardzo zgrabny.</p></noscript>
+		<noscript><h4>Opera</h4><p>Opera to najlepsza przeglÄdarka internetowa. OprĂłcz zwykĹej przglÄdarki posiada rĂłwniez klient poczty, klient IRC, czytnik RSS i klient BitTorrent czyli wiele programĂłw poĹÄczonych w jeden, bardzo zgrabny.</p></noscript>
         </div>
 </div>
      </div>
@@ -114,20 +114,20 @@ document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://s3.hit.stat24
         <ul>
        <li><a href="szablony.php">Szablony</a></li>
        <li><a href="fundament.php">Fundament kodu</a></li>
-        <li><a href="validator.php">Błędy w Validatorze</a></li>
+        <li><a href="validator.php">BĹÄdy w Validatorze</a></li>
         <li><a href="zdeprecjonowane.php">Znaczniki zdeprecjonowane</a></li>
         </ul>
 
         <h2 class="title2">porady</h2>
         <ul>
-        <li><a href="porady-1.php" title="Porady XHTML. Wartości w cudzysłowie. Stosowanie Doctype...">#1</a></li>
-        <li><a href="porady-2.php" title="Porady CSS. Zerowanie marginesów. Kolejnośc atrybutów...">#2</a></li>
-        <li><a href="porady-3.php" title="Porady graficzne. Zmniejszanie ciężaru, wielkości...">#3</a></li>
+        <li><a href="porady-1.php" title="Porady XHTML. WartoĹci w cudzysĹowie. Stosowanie Doctype...">#1</a></li>
+        <li><a href="porady-2.php" title="Porady CSS. Zerowanie marginesĂłw. KolejnoĹc atrybutĂłw...">#2</a></li>
+        <li><a href="porady-3.php" title="Porady graficzne. Zmniejszanie ciÄĹźaru, wielkoĹci...">#3</a></li>
         </ul>
 
         <h2 class="title2">inne</h2>
         <ul>
-        <li><a href="tips-and-tricks.php" title="Sztuczki przydatne w surfowaniu po sieci i użytkowaniu komputera.">Tips &amp; tricks</a></li>
+        <li><a href="tips-and-tricks.php" title="Sztuczki przydatne w surfowaniu po sieci i uĹźytkowaniu komputera.">Tips &amp; tricks</a></li>
         </ul>
     </div>
 </div>

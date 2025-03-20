@@ -1,30 +1,30 @@
 <?php include 'head.php'; ?>
 <h2 class="title">Fundament kodu</h2>
 <div class="wykaz" style="margin-top: 5px;">
-<p><b>Fundament kodu</b> to podstawa ka¿dej strony internetowej robionej od pocz±tku, poniewa¿ wszystkie strony posiadaj± (a przynajmniej powinny posiadaæ) pewnie cechy wspólne takie jak na przyk³ad <i>Doctype</i> lub deklaracja strony kodowej. Nie ma sensu przy tworzeniu nowej strony pisaæ za k±zdym razem wszystko od pocz±tku, wiêc warto mieæ wcze¶niej juz przydotowany "fundament". Poni¿ej przedstawi³em moj± propozycjê "fundamentu kodu"</p>
+<p><b>Fundament kodu</b> to podstawa kaÅ¼dej strony internetowej robionej od poczÄ…tku, poniewaÅ¼ wszystkie strony posiadajÄ… (a przynajmniej powinny posiadaÄ‡) pewnie cechy wspÃ³lne takie jak na przykÅ‚ad <i>Doctype</i> lub deklaracja strony kodowej. Nie ma sensu przy tworzeniu nowej strony pisaÄ‡ za kÄ…zdym razem wszystko od poczÄ…tku, wiÄ™c warto mieÄ‡ wczeÅ›niej juz przydotowany "fundament". PoniÅ¼ej przedstawiÅ‚em mojÄ… propozycjÄ™ "fundamentu kodu"</p>
 <pre>
 &lt;!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl"&gt;
 &lt;head&gt;
-	&lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" /&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
 	&lt;meta http-equiv="Content-Language" content="pl" /&gt;
 	&lt;meta name="Description" content="" /&gt;
 	&lt;meta name="Keywords" content="" /&gt;
 	&lt;meta name="Author" content="" /&gt;
 	&lt;meta name="Robots" content="" /&gt;
 	&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt;	
-	&lt;title&gt;Tu wpisz tytu³ strony&lt;/title&gt;
+	&lt;title&gt;Tu wpisz tytuÅ‚ strony&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
-Tu wpisuje siê tre¶æ strony
+Tu wpisuje siÄ™ treÅ›Ä‡ strony
 
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-<p>Do tego dochodzi oczywi¶cie arkusz stylów CSS o nazwie <code>style.css</code></p>
+<p>Do tego dochodzi oczywiÅ›cie arkusz stylÃ³w CSS o nazwie <code>style.css</code></p>
 <pre>
 * {
 	padding: 0;
@@ -50,7 +50,7 @@ a:hover {
 	text-decoration: underline;
 }
 </pre>
-<p>We w³asym zakresie nalezy przygotowac sobie folder o nazwie "images" lub "img" (mo¿e byc te¿ oczywi¶cie w³asna nazwa) zawieraj±cy grafikê.</p>
+<p>We wÅ‚asym zakresie nalezy przygotowac sobie folder o nazwie "images" lub "img" (moÅ¼e byc teÅ¼ oczywiÅ›cie wÅ‚asna nazwa) zawierajÄ…cy grafikÄ™.</p>
 <ul style="text-align:left;">
 <li><a href="pliki/fundament.zip">Pobierz</a></li>
 </ul>

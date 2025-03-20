@@ -1,7 +1,7 @@
 <?php include 'head.php'; ?>
 <h2 class="title">Kontakt</h2>
 <div class="wykaz">
-<p class="copyright">Aby skontaktowac siê ze mn±, wype³nij poni¿szy formularz. Pamiêtaj ¿e <em>wszystkie pola s± wymagane</em>.</p>
+<p class="copyright">Aby skontaktowac siÄ™ ze mnÄ…, wypeÅ‚nij poniÅ¼szy formularz. PamiÄ™taj Å¼e <em>wszystkie pola sÄ… wymagane</em>.</p>
 </div>
 <div class="wykaz">
 <h4>Formularz kontaktowy</h4>
@@ -11,8 +11,8 @@ if (count($_POST))
 	////////// USTAWIENIA //////////
 	$email = 'drzamich@gmail.com';	// Adres e-mail adresata
 	$subject = 'drzamich.boo.pl';	// Temat listu
-	$message = 'Twoja wiadomo¶c zosta³a wys³ana';	// Komunikat
-	$error = 'Wyst±pi³ b³±d podczas wysy³ania wiadomo¶ci';	// Komunikat b³êdu
+	$message = 'Twoja wiadomoÅ›c zostaÅ‚a wysÅ‚ana';	// Komunikat
+	$error = 'WystÄ…piÅ‚ bÅ‚Ä…d podczas wysyÅ‚ania wiadomoÅ›ci';	// Komunikat bÅ‚Ä™du
 	$charset = 'iso-8859-2';	// Strona kodowa
 	//////////////////////////////
 	
@@ -41,7 +41,7 @@ else
 <form action="?" method="post" id="kontakt">
 
 <fieldset>
-<legend>Imiê: / Nick:</legend>
+<legend>ImiÄ™: / Nick:</legend>
 <input type="text" name="imie" />
 </fieldset>
 
@@ -51,16 +51,16 @@ else
 </fieldset>
 
 <fieldset>
-<legend>Temat wiadomo¶ci:</legend>
+<legend>Temat wiadomoÅ›ci:</legend>
 <input type="text" name="temat" />
 </fieldset>
 
 <fieldset>
-<legend>Tre¶æ wiadomo¶ci:</legend>
+<legend>TreÅ›Ä‡ wiadomoÅ›ci:</legend>
 <textarea name="tresc" cols="20" rows="10"></textarea>
 </fieldset>
 
-<input type="submit" value="Wy¶lij" />
+<input type="submit" value="WyÅ›lij" />
 
 </form>
 </div>

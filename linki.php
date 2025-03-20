@@ -3,12 +3,12 @@
 <h2 class="title">Linki</h2>
     <div class="wykaz">
          <h4 id="oferta">Oferta wymiany linkiami</h4>
-         <p>Chêtnie wymienie siê linkiem z inn± stron± internetow±:</p>
+         <p>ChÄ™tnie wymienie siÄ™ linkiem z innÄ… stronÄ… internetowÄ…:</p>
          <ul>
          <li>Tematyka jest dowolna</li>
-         <li>Linki bêda umieszczane w tej podtronie</li>
-         <li>Nalezy podaæ krótki (max. 200 znaków) opis strony, który bêdzie znajdowa³ siê obok linku</li>
-         <li>Pro¶by o umieszczenie linka, proszê wysy³aæ za po¶rednictwem dzia³u Konakt. W tytule wiadomo¶ci prosze wpisaæ <span class="b">[Wymiana linkiem] <var>adres strony</var></span></li>
+         <li>Linki bÄ™da umieszczane w tej podtronie</li>
+         <li>Nalezy podaÄ‡ krÃ³tki (max. 200 znakÃ³w) opis strony, ktÃ³ry bÄ™dzie znajdowaÅ‚ siÄ™ obok linku</li>
+         <li>ProÅ›by o umieszczenie linka, proszÄ™ wysyÅ‚aÄ‡ za poÅ›rednictwem dziaÅ‚u Konakt. W tytule wiadomoÅ›ci prosze wpisaÄ‡ <span class="b">[Wymiana linkiem] <var>adres strony</var></span></li>
          </ul>
     </div>
     
@@ -25,10 +25,10 @@
          <dl>
 
          <dt><a href="http://kurshtml.boo.pl">kurshtml.boo.pl</a></dt>
-         <dd>Najlepszy kurs jêzyka <acronym xml:lang="en" title="Extensible HyperText Markup Language">XHTML</acronym> i <acronym xml:lang="en" title="Cascading Style Sheets">CSS</acronym> w polskim internecie. W du¿ej mierze to dziêki temu kursowi umiem robic strony internetowe.</dd>
+         <dd>Najlepszy kurs jÄ™zyka <acronym xml:lang="en" title="Extensible HyperText Markup Language">XHTML</acronym> i <acronym xml:lang="en" title="Cascading Style Sheets">CSS</acronym> w polskim internecie. W duÅ¼ej mierze to dziÄ™ki temu kursowi umiem robic strony internetowe.</dd>
 
          <dt><a href="http://pajacyk.pl">pajacyk.pl</a></dt>
-         <dd>Strona PAH (Polskiej Akcji Humanitarnej), na której klikaj±c w brzuszek pajacyka mo¿esz nakarmiæ g³odne dziecko.</dd>
+         <dd>Strona PAH (Polskiej Akcji Humanitarnej), na ktÃ³rej klikajÄ…c w brzuszek pajacyka moÅ¼esz nakarmiÄ‡ gÅ‚odne dziecko.</dd>
 
          <dt><a href="http://dobreprogramy.pl">dobreprogramy.pl</a></dt>
          <dd>Polski vortal z legalnym oprogramowaniem i nowinkami z dziedziny informatyki.</dd>

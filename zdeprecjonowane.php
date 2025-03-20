@@ -3,76 +3,76 @@
 <div class="wykaz">
 <h4>Znaczniki zdeprecjonowane</h4>
 <ul>
-    <li><code>Applet</code> - aplet. Nale¿y zast±piæ go znacznikiem <code>&lt;object&gt;</code></li>
-    <li><code>Basefont</code> - czcionka bazowa (domy¶lna). Zamiast niego nalezy nadac wybrane elementy znacznikowi <code>&lt;body&gt;</code>
-    <p class="opis">Na przyk³ad:</p>
+    <li><code>Applet</code> - aplet. NaleÅ¼y zastÄ…piÄ‡ go znacznikiem <code>&lt;object&gt;</code></li>
+    <li><code>Basefont</code> - czcionka bazowa (domyÅ›lna). Zamiast niego nalezy nadac wybrane elementy znacznikowi <code>&lt;body&gt;</code>
+    <p class="opis">Na przykÅ‚ad:</p>
     <pre>body { font-size: 15px; color: #000; font-family: arial; }</pre></li>
-    <li><code>Center</code> - wy¶rodkowanie. Aby wy¶rodkowac tekst w danym znaczniku, nalezy nadac mu w CSS:
+    <li><code>Center</code> - wyÅ›rodkowanie. Aby wyÅ›rodkowac tekst w danym znaczniku, nalezy nadac mu w CSS:
     <pre>text-align: cener;</pre>
-    <p class="opis">Na przyk³ad:</p>
+    <p class="opis">Na przykÅ‚ad:</p>
     <pre>&lt;p style="text-align: cener;"&gt;</pre></li>
-    <li><code>Dir</code>- wielokolumnowy spis zawarto¶ci. Nalezy zast±piæ go znacznikiem <code>&lt;ul&gt;</code></li>
-    <li><code>Font</code> - element czcionki. Zosta³ zast±piony znacznikiem <code>&lt;span&gt;</code></li>
-    <li><code>Isindex</code> - jednoliniowe pole tekstowe. Nale¿y zast±piæ go znacznikiem <code>&lt;input&gt;</code></li>
-    <li><code>Menu</code> - spis elementów menu. Nalezy zast±piæ go znacznikiem <code>&lt;ul&gt;</code></li>
-    <li><code>S</code>, <code>Strike</code> - przekre¶lenie. Aby uzuskaæ taki sam efekt nale¿y danemu elementowi nadaæ w CSS atrybuty:
+    <li><code>Dir</code>- wielokolumnowy spis zawartoÅ›ci. Nalezy zastÄ…piÄ‡ go znacznikiem <code>&lt;ul&gt;</code></li>
+    <li><code>Font</code> - element czcionki. ZostaÅ‚ zastÄ…piony znacznikiem <code>&lt;span&gt;</code></li>
+    <li><code>Isindex</code> - jednoliniowe pole tekstowe. NaleÅ¼y zastÄ…piÄ‡ go znacznikiem <code>&lt;input&gt;</code></li>
+    <li><code>Menu</code> - spis elementÃ³w menu. Nalezy zastÄ…piÄ‡ go znacznikiem <code>&lt;ul&gt;</code></li>
+    <li><code>S</code>, <code>Strike</code> - przekreÅ›lenie. Aby uzuskaÄ‡ taki sam efekt naleÅ¼y danemu elementowi nadaÄ‡ w CSS atrybuty:
     <pre>text-decoration: line-through;</pre>
-    <p class="opis">Na przyk³ad:</p>
+    <p class="opis">Na przykÅ‚ad:</p>
     <pre>&lt;span style="text-decoration: line-through;"&gt;</pre></li>
-    <li><code>U</code> - podkre¶lenie. Aby uzuskaæ taki sam efekt nale¿y danemu elementowi nadaæ w CSS atrybuty:
+    <li><code>U</code> - podkreÅ›lenie. Aby uzuskaÄ‡ taki sam efekt naleÅ¼y danemu elementowi nadaÄ‡ w CSS atrybuty:
     <pre>text-decoration: underline;</pre>
-    <p class="opis">Na przyk³ad:</p>
+    <p class="opis">Na przykÅ‚ad:</p>
     <pre>&lt;span style="text-decoration: underline;"&gt;</pre></li>
 </ul>
 </div>
 <div class="wykaz">
 <h4>Atrybuty zdeprecjonowane</h4>
 <ul>
-    <li><code>align</code> - wyrównanie tekstu. Zamiast tego nalezy danemu elementowi nadac w warto¶ci CSS:
-<pre>text-align: <var>wyrównanie</var></pre></li>
-    <li><code>alink</code> - kolor aktywnych odsy³aczy. Zamiast tego nale¿y elementowi <code>A</code> nadaæ w pseudoklasê CSS:
+    <li><code>align</code> - wyrÃ³wnanie tekstu. Zamiast tego nalezy danemu elementowi nadac w wartoÅ›ci CSS:
+<pre>text-align: <var>wyrÃ³wnanie</var></pre></li>
+    <li><code>alink</code> - kolor aktywnych odsyÅ‚aczy. Zamiast tego naleÅ¼y elementowi <code>A</code> nadaÄ‡ w pseudoklasÄ™ CSS:
 <pre>a:hover {color: <var>kolor</var>}</pre></li>
-    <li><code>background</code> - t³o obrazkowe. Zamiast tego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
+    <li><code>background</code> - tÅ‚o obrazkowe. Zamiast tego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
 <pre>background-image: url('<var>adres obrazka</var>')</pre></li>
-    <li><code>bgcolor</code> - kolor t³a. Zamiast tego nalezy danemu elementowi nadac w warto¶ci CSS:
+    <li><code>bgcolor</code> - kolor tÅ‚a. Zamiast tego nalezy danemu elementowi nadac w wartoÅ›ci CSS:
 <pre>background-color: <var>kolor</var></pre></li>
-    <li><code>border</code> - szereoko¶c obramowania. Zamiast tego nalezy danemu elementowi nadaæ w warto¶ci CSS:
-<pre>border-width: <var>szeroko¶c</var></pre></li>
-    <li><code>clear</code> - okre¶la, gdzie powinna siê pojawiæ nowa linia. Brak zast±pienia w CSS</li>
-    <li><code>code</code> -	plik klasy apletu. Brak zast±pienia w CSS.</li>
-    <li><code>color</code> - kolor tekstu. Zamiast tego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
+    <li><code>border</code> - szereokoÅ›c obramowania. Zamiast tego nalezy danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
+<pre>border-width: <var>szerokoÅ›c</var></pre></li>
+    <li><code>clear</code> - okreÅ›la, gdzie powinna siÄ™ pojawiÄ‡ nowa linia. Brak zastÄ…pienia w CSS</li>
+    <li><code>code</code> -	plik klasy apletu. Brak zastÄ…pienia w CSS.</li>
+    <li><code>color</code> - kolor tekstu. Zamiast tego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
 <pre>color: <var>numer/nazwa koloru</var></pre></li>
-    <li><code>compact</code> - redukuje odstêpy pomiêdzy pozycjami. Brak zast±pienia w CSS.</li>
-    <li><code>face</code> - styl czcionki. Zamiast niego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
+    <li><code>compact</code> - redukuje odstÄ™py pomiÄ™dzy pozycjami. Brak zastÄ…pienia w CSS.</li>
+    <li><code>face</code> - styl czcionki. Zamiast niego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
 <pre>font-family: <var>nazwa stylu</var></pre></li>
-    <li><code>height</code> - wysoko¶c. Zamiast niego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
-<pre>height: <var>wysoko¶æ</var></pre></li>
-    <li><code>hspace</code> - poziomy odstêp. Zamiast niego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
-<pre>margin-left: <var>odstêp od lewej</var>; margin-right: <var>odstêp od prawej</var>;</pre></li>
-    <li><code>language</code> - predefiniowana nazwa jêzyka skryptowego. Brak zast±pienia w CSS.</li>
-    <li><code>link</code> - kolor odsy³aczy. Zamiast tego nale¿y elementowi <code>A</code> nadac w CSS:
+    <li><code>height</code> - wysokoÅ›c. Zamiast niego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
+<pre>height: <var>wysokoÅ›Ä‡</var></pre></li>
+    <li><code>hspace</code> - poziomy odstÄ™p. Zamiast niego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
+<pre>margin-left: <var>odstÄ™p od lewej</var>; margin-right: <var>odstÄ™p od prawej</var>;</pre></li>
+    <li><code>language</code> - predefiniowana nazwa jÄ™zyka skryptowego. Brak zastÄ…pienia w CSS.</li>
+    <li><code>link</code> - kolor odsyÅ‚aczy. Zamiast tego naleÅ¼y elementowi <code>A</code> nadac w CSS:
 <pre>a {color: <var>kolor</var>}</pre></li>
-    <li><code>noshade</code> - pozioma linia pozbawiona cienia. Brak zast±pienia w CSS.</li>
-    <li><code>nowrap</code> - blokada zawijania tekstu. Brak zast±pienia w CSS.</li>
-    <li><code>object</code> - plik zasobów. Brak zast±pienia w CSS.</li>
-    <li><code>prompt</code> - tekst zachêty. Brak zast±pienia w CSS.</li>
-    <li><code>size</code> - wielko¶æ czcionki. Zamiast niego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
-<pre>font-size: <var>wielko¶æ</var></pre></li>
-    <li><code>start</code> - liczba pocz±tkowa. Brak zast±pienia w CSS.</li>
-    <li><code>text</code> (<code>BODY</code>) - kolor teksty dokumentu. Zamiast niego nale¿y elementowi BODY nadaæ w warto¶ci CSS:
+    <li><code>noshade</code> - pozioma linia pozbawiona cienia. Brak zastÄ…pienia w CSS.</li>
+    <li><code>nowrap</code> - blokada zawijania tekstu. Brak zastÄ…pienia w CSS.</li>
+    <li><code>object</code> - plik zasobÃ³w. Brak zastÄ…pienia w CSS.</li>
+    <li><code>prompt</code> - tekst zachÄ™ty. Brak zastÄ…pienia w CSS.</li>
+    <li><code>size</code> - wielkoÅ›Ä‡ czcionki. Zamiast niego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
+<pre>font-size: <var>wielkoÅ›Ä‡</var></pre></li>
+    <li><code>start</code> - liczba poczÄ…tkowa. Brak zastÄ…pienia w CSS.</li>
+    <li><code>text</code> (<code>BODY</code>) - kolor teksty dokumentu. Zamiast niego naleÅ¼y elementowi BODY nadaÄ‡ w wartoÅ›ci CSS:
 <pre>body {color: <var>numer/nazwa koloru</var>}</pre></li>
-    <li><code>type</code> (<code>OL</code>, <code>UL</code>, <code>DL</code>) - styl wykazu. Zamiast niego nale¿y elementowi <code>OL</code>, <code>UL</code> lub <code>DL</code> nadaæ w warto¶ci CSS:
+    <li><code>type</code> (<code>OL</code>, <code>UL</code>, <code>DL</code>) - styl wykazu. Zamiast niego naleÅ¼y elementowi <code>OL</code>, <code>UL</code> lub <code>DL</code> nadaÄ‡ w wartoÅ›ci CSS:
 <pre>list-style-type: <var>typ</var></pre></li>
-    <li><code>version</code> - wersja <code>HTML</code>. Nalezy uzywac deklaracji <span class="i">Doctype</span> na pocz±tku dokumentu. Wiêcej w dziale <a href="../porady-html">Porady HTML</a>.</li>
-    <li><code>vlink</code> - kolor odwiedzonych odsy³aczy. Zamiast tego nale¿y elementowi <code>A</code> nadaæ w pseudoklasê CSS:
+    <li><code>version</code> - wersja <code>HTML</code>. Nalezy uzywac deklaracji <span class="i">Doctype</span> na poczÄ…tku dokumentu. WiÄ™cej w dziale <a href="../porady-html">Porady HTML</a>.</li>
+    <li><code>vlink</code> - kolor odwiedzonych odsyÅ‚aczy. Zamiast tego naleÅ¼y elementowi <code>A</code> nadaÄ‡ w pseudoklasÄ™ CSS:
 <pre>a:visited {color: <var>kolor</var>}</pre></li>
-    <li><code>vspace</code> - pionowy odstêp. Zamiast niego nale¿y danemu elementowi nadaæ w warto¶ci CSS:
-<pre>margin-top: <var>odstêp od góry</var>; margin-bottom: <var>odstêp od do³u</var>;</pre></li>
+    <li><code>vspace</code> - pionowy odstÄ™p. Zamiast niego naleÅ¼y danemu elementowi nadaÄ‡ w wartoÅ›ci CSS:
+<pre>margin-top: <var>odstÄ™p od gÃ³ry</var>; margin-bottom: <var>odstÄ™p od doÅ‚u</var>;</pre></li>
 </ul>
 </div>
 <div class="wykaz">
 <h4>Blokada Anty-Zdeprecjonowanym</h4>
-<p><b>Blokada Anty-Zdeprecjonowanym</b> to mój pomysl na to jak odzwyczaiæ siê od u¿ywania znaczników zdeprecjonowanych. Polega ona na tym ¿e w arkuszu styów <code>CSS</code> wpisujemy kod podany poni¿ej. Po wpisaniu tego kodu, je¶li dokument <code>(X)HTML</code> ma odniesienie do arkusza, to nie bêd± dzia³a³y w nim choæ niektóre znaczniki zdeprecjonowane - te które da siê zablokowac u¿ywaj±c <code>CSS</code>. A oto kod, który trzeba wkleiæ do swojego arkusza stylów:</p>
+<p><b>Blokada Anty-Zdeprecjonowanym</b> to mÃ³j pomysl na to jak odzwyczaiÄ‡ siÄ™ od uÅ¼ywania znacznikÃ³w zdeprecjonowanych. Polega ona na tym Å¼e w arkuszu styÃ³w <code>CSS</code> wpisujemy kod podany poniÅ¼ej. Po wpisaniu tego kodu, jeÅ›li dokument <code>(X)HTML</code> ma odniesienie do arkusza, to nie bÄ™dÄ… dziaÅ‚aÅ‚y w nim choÄ‡ niektÃ³re znaczniki zdeprecjonowane - te ktÃ³re da siÄ™ zablokowac uÅ¼ywajÄ…c <code>CSS</code>. A oto kod, ktÃ³ry trzeba wkleiÄ‡ do swojego arkusza stylÃ³w:</p>
 <pre>i {
 	font-style: normal;
 }
@@ -86,12 +86,12 @@ applet, dir, isindex, menu {
 	display: none
 }
 </pre>
-<p>Kod ten dzia³a tak, ¿e gdy wpiszemy w kodzie znacznik <code>&lt;i&gt;</code>, zamiast pochylonego tekstu wy¶wietli nam siê zwyk³y, tak jakby¶my w ogóle nie u¿yli. Podobnie w przypadku <code>&lt;u&gt;</code>, <code>&lt;s&gt;</code> i <code>&lt;strike&gt;</code>. Natomiast je¶li u¿yjemy <code>&lt;applet&gt;</code>, <code>&lt;dir&gt;</code>, <code>&lt;isindex&gt;</code> lub <code>&lt;menu&gt;</code> nie zobaczymy nic.</p>
+<p>Kod ten dziaÅ‚a tak, Å¼e gdy wpiszemy w kodzie znacznik <code>&lt;i&gt;</code>, zamiast pochylonego tekstu wyÅ›wietli nam siÄ™ zwykÅ‚y, tak jakbyÅ›my w ogÃ³le nie uÅ¼yli. Podobnie w przypadku <code>&lt;u&gt;</code>, <code>&lt;s&gt;</code> i <code>&lt;strike&gt;</code>. Natomiast jeÅ›li uÅ¼yjemy <code>&lt;applet&gt;</code>, <code>&lt;dir&gt;</code>, <code>&lt;isindex&gt;</code> lub <code>&lt;menu&gt;</code> nie zobaczymy nic.</p>
 </div>
 <div class="wykaz">
-<h4>Zast±pienie zdeprecjonowanych znaczników</h4>
-<p><q>No dobra</q> - powie kto¶. <q>Ale teraz jak chcê na przyk³±d pochyliæ tekst, to muszê wpisywac styl w ka¿dym znaczniku osobno. To ja ju¿ wole mieæ znaczniki zdeprecjonwoane.</q></p>
-<p>Nie, wcale nie. Wystarczy ¿e do swojego arkusza stylów wkleisz ten kod:</p>
+<h4>ZastÄ…pienie zdeprecjonowanych znacznikÃ³w</h4>
+<p><q>No dobra</q> - powie ktoÅ›. <q>Ale teraz jak chcÄ™ na przykÅ‚Ä…d pochyliÄ‡ tekst, to muszÄ™ wpisywac styl w kaÅ¼dym znaczniku osobno. To ja juÅ¼ wole mieÄ‡ znaczniki zdeprecjonwoane.</q></p>
+<p>Nie, wcale nie. Wystarczy Å¼e do swojego arkusza stylÃ³w wkleisz ten kod:</p>
 <pre>.i {
 	font-style: italic;
 }
@@ -102,14 +102,14 @@ applet, dir, isindex, menu {
 	text-decoration: line-trought;
 }
 </pre>
-<p>Teraz, gdy bêdziesz chcia³ na przyk³ad pochyliæ tekst wystarczy wpisaæ:</p>
+<p>Teraz, gdy bÄ™dziesz chciaÅ‚ na przykÅ‚ad pochyliÄ‡ tekst wystarczy wpisaÄ‡:</p>
 <pre>&lt;<var>znacznik</var> class="i"&gt;...&lt;znacznik&gt;</pre>
-<p>Tak samo w przy <code>u</code>, <code>s</code> i <code>strike</code>. Po prostu wystarczy zmieniæ litekrê w atrubucie <code>class</code>.</p>
+<p>Tak samo w przy <code>u</code>, <code>s</code> i <code>strike</code>. Po prostu wystarczy zmieniÄ‡ litekrÄ™ w atrubucie <code>class</code>.</p>
 </div>
 <div class="wykaz">
 <h4>Blokada Anty-Zdeprecjonowanym Atrybutom</h4>
-<p><b>Blokada Anty-Zdeprecjonowanym Atrybutom</b> dzia³a podobnie do <b>Blokada Anty-Zdeprecjonowanym Znacznikom</b>, ale - jak sama nazwa wskazuje, dotyczy nie zdeprecjonowanych znaczników (takich jak <code>&lt;u&gt;</code> czy <code>&lt;strike&gt;</code>) ale atrybutów (takich jak <code>&lt;bgcolor&gt;</code> czy <code>&lt;face&gt;</code>).</p>
-<p>Tak wiêc, aby zablokowac zdeprecjonowane znaczniki, do arkusza stylów dodajemy nastepuj±cy kod:</p>
+<p><b>Blokada Anty-Zdeprecjonowanym Atrybutom</b> dziaÅ‚a podobnie do <b>Blokada Anty-Zdeprecjonowanym Znacznikom</b>, ale - jak sama nazwa wskazuje, dotyczy nie zdeprecjonowanych znacznikÃ³w (takich jak <code>&lt;u&gt;</code> czy <code>&lt;strike&gt;</code>) ale atrybutÃ³w (takich jak <code>&lt;bgcolor&gt;</code> czy <code>&lt;face&gt;</code>).</p>
+<p>Tak wiÄ™c, aby zablokowac zdeprecjonowane znaczniki, do arkusza stylÃ³w dodajemy nastepujÄ…cy kod:</p>
 <pre>*[align] {
 	text-align: left;
 }
@@ -164,8 +164,8 @@ ol[type] {
 	width: 0px;
 }
 </pre>
-<p>Tutaj, tak samo jak w przypadku znaczników, nie wszystkie atrybuto maj± swoje zastosowanie w <code>CSS</code>. Tak wiêc nie wszystkie atrybuty mog± byæ zablokowane przez <code>CSS</code></p>.
-<p>Jako kolor domy¶lny tekstu przyj±³em czarny (<code>#000</code>),a t³a bia³y (<code>#fff</code>). Je¶li jednak na swojej stronie uzywasz innego koloru tekstu / t³a, zmieñ kolory w kodzie podanym przeze mnie wed³ug swoich potrzeb.</p>
+<p>Tutaj, tak samo jak w przypadku znacznikÃ³w, nie wszystkie atrybuto majÄ… swoje zastosowanie w <code>CSS</code>. Tak wiÄ™c nie wszystkie atrybuty mogÄ… byÄ‡ zablokowane przez <code>CSS</code></p>.
+<p>Jako kolor domyÅ›lny tekstu przyjÄ…Å‚em czarny (<code>#000</code>),a tÅ‚a biaÅ‚y (<code>#fff</code>). JeÅ›li jednak na swojej stronie uzywasz innego koloru tekstu / tÅ‚a, zmieÅ„ kolory w kodzie podanym przeze mnie wedÅ‚ug swoich potrzeb.</p>
 </div>
 <?php include 'foot.php'; ?>
 

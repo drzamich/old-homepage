@@ -1,33 +1,33 @@
 <?php include 'head.php'; ?>
 <h2 class="title">Porady HTML</h2>
 <div class="wykaz">
-<h4 id="wartosci_w_cudzyslowie">Warto¶ci w cudzys³owie</h4>
-<p>Pisz±c strony WWW bardzo czêsto musimy wpisaæ w znaczniku jego atrybut taki jak np. <code>style</code>, <code>class</code>, czy <code>border</code>. Aby to zastosowaæ trzeba zapisac to tak:</p>
-<p class="opis">wzór:</p>
+<h4 id="wartosci_w_cudzyslowie">WartoÅ›ci w cudzysÅ‚owie</h4>
+<p>PiszÄ…c strony WWW bardzo czÄ™sto musimy wpisaÄ‡ w znaczniku jego atrybut taki jak np. <code>style</code>, <code>class</code>, czy <code>border</code>. Aby to zastosowaÄ‡ trzeba zapisac to tak:</p>
+<p class="opis">wzÃ³r:</p>
 <pre>
-&lt;znacznik atrybut=warto¶æ&gt;
+&lt;znacznik atrybut=wartoÅ›Ä‡&gt;
 </pre>
-<p>Taki zapis jest dobry jesli komu¶ chodzi tylko o to ¿eby to dzia³a³o. Z punktu widzenia standartów XHTML jest to jednak dzia³anie b³êdne, poniewa¿ warto¶c musimy wzi±æ w cudzys³ów.</p>
-<p class="opis">wzór:</p>
+<p>Taki zapis jest dobry jesli komuÅ› chodzi tylko o to Å¼eby to dziaÅ‚aÅ‚o. Z punktu widzenia standartÃ³w XHTML jest to jednak dziaÅ‚anie bÅ‚Ä™dne, poniewaÅ¼ wartoÅ›c musimy wziÄ…Ä‡ w cudzysÅ‚Ã³w.</p>
+<p class="opis">wzÃ³r:</p>
 <pre>
-&lt;znacznik atrybut="warto¶æ"&gt;
+&lt;znacznik atrybut="wartoÅ›Ä‡"&gt;
 </pre>
-<p>Je¶li piszemy w zwyk³ym HTML nie musimy tego robiæ, jednak polecam takie dzia³anie, gdy¿ pó¼niej ³atwiej bezie siê nam przystosowaæ do nowoczesnych standartów a tak¿e kod jest bardziej przejrzysty.</p>
-<p class="opis" style="margin-top: 2px;">przyk³ad b³êdu:</p>
+<p>JeÅ›li piszemy w zwykÅ‚ym HTML nie musimy tego robiÄ‡, jednak polecam takie dziaÅ‚anie, gdyÅ¼ pÃ³Åºniej Å‚atwiej bezie siÄ™ nam przystosowaÄ‡ do nowoczesnych standartÃ³w a takÅ¼e kod jest bardziej przejrzysty.</p>
+<p class="opis" style="margin-top: 2px;">przykÅ‚ad bÅ‚Ä™du:</p>
 <pre>
 <span style="color: #f00;">&lt;table border=1 cellpadding=0 cellspacing=0&gt;</span>
 </pre>
-<p class="opis">przyk³ad poprawny:</p>
+<p class="opis">przykÅ‚ad poprawny:</p>
 <pre>
 <span style="color: #228b22;">&lt;table border="1" cellpadding="0" cellspacing="0"&gt;</span>
 </pre>
 </div>
 <div class="wykaz">
 <h4 id="stosowanie_doctype">Stosowanie Doctype</h4>
-<p><i>Doctype</i> okre¶la w jakim typie jêzyka <code>HTML</code> napisana jest strona WWW. Rodzaje <i>Doctype</i> ustala organizacja standartów internetowych - <a href="http://w3.org/">W3C</a>. Istniej± dwa typy <i>Doctype</i> - <code>HTML</code> i <code>XHTML</code>. Najnowsz± odmian± <code>HTML</code> jest wersja 4.01, a <code>XHTML</code> 1.1, która jest  jednak rzadko stosowana.</p>
-<p><i>Doctype</i> wstawiamy na samiutkim pocz±tku dokumentu, przed znacznikiem <code>&lt;html&gt;</code></p>
+<p><i>Doctype</i> okreÅ›la w jakim typie jÄ™zyka <code>HTML</code> napisana jest strona WWW. Rodzaje <i>Doctype</i> ustala organizacja standartÃ³w internetowych - <a href="http://w3.org/">W3C</a>. IstniejÄ… dwa typy <i>Doctype</i> - <code>HTML</code> i <code>XHTML</code>. NajnowszÄ… odmianÄ… <code>HTML</code> jest wersja 4.01, a <code>XHTML</code> 1.1, ktÃ³ra jest  jednak rzadko stosowana.</p>
+<p><i>Doctype</i> wstawiamy na samiutkim poczÄ…tku dokumentu, przed znacznikiem <code>&lt;html&gt;</code></p>
 <h4 style="margin-top: 5px;"><code>Doctype HTML</code></h4>
-<p class="opis">Wersje HTML 4.01 wy³±czaj±ca znaczniki <a href="http://4programmers.net/(X)HTML/Deprecated">zdeprecjonowane</a> czyli takie, których odradza siê stosowanie</p>
+<p class="opis">Wersje HTML 4.01 wyÅ‚Ä…czajÄ…ca znaczniki <a href="http://4programmers.net/(X)HTML/Deprecated">zdeprecjonowane</a> czyli takie, ktÃ³rych odradza siÄ™ stosowanie</p>
 <pre>
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"&gt;
 </pre>
@@ -35,7 +35,7 @@
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 	"http://www.w3.org/TR/html4/strict.dtd"&gt;
 </pre>
-<p class="opis">Wersje HTML 4.01 zawieraj±ce znaczniki zdeprecjonowane (<b>Transitional</b>)</p>
+<p class="opis">Wersje HTML 4.01 zawierajÄ…ce znaczniki zdeprecjonowane (<b>Transitional</b>)</p>
 <pre>
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
 </pre>
@@ -43,7 +43,7 @@
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 	"http://www.w3.org/TR/html4/loose.dtd"&gt;
 </pre>
-<p class="opis">Wersje HTML 4.01 dla stron zawieraj±cych ramki (<b>Frameset</b>)</p>
+<p class="opis">Wersje HTML 4.01 dla stron zawierajÄ…cych ramki (<b>Frameset</b>)</p>
 <pre>
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"&gt;
 </pre>

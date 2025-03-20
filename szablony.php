@@ -2,10 +2,10 @@
 <h2 class="title">Szablony</h2>
 <div class="wykaz" style="margin-top: 5px;">
 <h4 id="copyright">Zasady korzystania</h4>
-<p class="copyright">Korzystanie z szablonów umieszczonych przeze mnie jest ca³kowicie darmowe.<br />
-Je¶li jednak umieszczasz w internecie stronê oparta na jednym z moich szablonów, proszê, aby¶ skontaktowa³ siê ze mn±.<br />
-Jak to zrobiæ, mo¿na dowiedzieæ siê w dziale Kontakt.<br />
-Poza tym, proszê aby pozostawiæ w stopce napis<br />
+<p class="copyright">Korzystanie z szablonÃ³w umieszczonych przeze mnie jest caÅ‚kowicie darmowe.<br />
+JeÅ›li jednak umieszczasz w internecie stronÄ™ oparta na jednym z moich szablonÃ³w, proszÄ™, abyÅ› skontaktowaÅ‚ siÄ™ ze mnÄ….<br />
+Jak to zrobiÄ‡, moÅ¼na dowiedzieÄ‡ siÄ™ w dziale Kontakt.<br />
+Poza tym, proszÄ™ aby pozostawiÄ‡ w stopce napis<br />
 <strong>"Copyleft by Drzamich."</strong></p>
 </div>
 <div class="wykaz">

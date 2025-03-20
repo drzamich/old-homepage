@@ -1,4 +1,4 @@
-     </div>
+</div>
 </div>
 
 <!-- PRAWE MENU -->
@@ -8,20 +8,20 @@
         <ul>
        <li><a href="szablony.php">Szablony</a></li>
        <li><a href="fundament.php">Fundament kodu</a></li>
-        <li><a href="validator.php">B³êdy w Validatorze</a></li>
+        <li><a href="validator.php">BÅ‚Ä™dy w Validatorze</a></li>
         <li><a href="zdeprecjonowane.php">Znaczniki zdeprecjonowane</a></li>
         </ul>
         
         <h2 class="title2">porady</h2>
         <ul>
-        <li><a href="porady-1.php" title="Porady XHTML. Warto¶ci w cudzys³owie. Stosowanie Doctype...">#1</a></li>
-        <li><a href="porady-2.php" title="Porady CSS. Zerowanie marginesów. Kolejno¶c atrybutów...">#2</a></li>
-        <li><a href="porady-3.php" title="Porady graficzne. Zmniejszanie ciê¿aru, wielko¶ci...">#3</a></li>
+        <li><a href="porady-1.php" title="Porady XHTML. WartoÅ›ci w cudzysÅ‚owie. Stosowanie Doctype...">#1</a></li>
+        <li><a href="porady-2.php" title="Porady CSS. Zerowanie marginesÃ³w. KolejnoÅ›c atrybutÃ³w...">#2</a></li>
+        <li><a href="porady-3.php" title="Porady graficzne. Zmniejszanie ciÄ™Å¼aru, wielkoÅ›ci...">#3</a></li>
         </ul>
         
         <h2 class="title2">inne</h2>
         <ul>
-        <li><a href="tips-and-tricks.php" title="Sztuczki przydatne w surfowaniu po sieci i u¿ytkowaniu komputera.">Tips &amp; tricks</a></li>
+        <li><a href="tips-and-tricks.php" title="Sztuczki przydatne w surfowaniu po sieci i uÅ¼ytkowaniu komputera.">Tips &amp; tricks</a></li>
         </ul>
     </div>
 </div>
